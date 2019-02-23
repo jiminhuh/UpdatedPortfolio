@@ -347,3 +347,120 @@ body {
     top: 12em;
     right: 0em;
 }
+
+/* About */
+
+#front-end-text {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+
+#back-end-text {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    font-size: 3em;
+}
+
+#html {
+    color: rgb(219, 108, 4);
+    padding-right: 0.1em;
+}
+
+#css {
+    color: rgb(54, 120, 207);
+    padding-right: 0.1em;
+}
+
+#javascript {
+    color: rgb(241, 211, 75);
+    padding-right: 0.1em;
+}
+
+#react {
+    color: rgb(84, 240, 240);
+    padding-right: 0.1em;
+}
+
+#node {
+    color: rgb(118, 155, 63);
+    padding-right: 0.2em;
+}
+
+#server {
+    color: rgb(119, 119, 139);
+    padding-right: 0.2em;
+}
+
+#php {
+    color: rgb(47, 47, 110);
+    padding-right: 0.2em;
+}
+
+#front-end-icons {
+    text-align: center;
+    margin-top: 4em;
+}
+
+li {
+    padding: 5px;
+    margin-left: 2em;
+}
+
+#back-end-info {
+    margin: 0;
+}
+
+.back-end-div {
+    margin-top: 3em;
+    border-top: 0.4px solid black;
+    padding-top: 3em;
+}
+
+#back-end-icons {
+    text-align: center;
+}
+
+.misc {
+    border-top: 0.3px solid black;
+    margin-top: 3em;
+}
+
+#misc-title {
+    text-align: center;
+}
+
+#misc-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+
+#code-file {
+    color: black;
+    padding-right: 0.2em;
+    padding-bottom: 0.4em;
+}
+
+#database {
+    color: darkgreen;
+    padding-right: 0.2em;
+}
+
+#google {
+    width: 130px;
+    height: 130px;
+    padding-right: 0.7em;
+}
+
+
+#instagram {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -10px;
+}
+
+#still-curious {
+    text-align: center;
+}
