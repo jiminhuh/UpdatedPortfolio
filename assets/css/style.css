@@ -21,7 +21,6 @@ body {
     padding: 0 2em;
     height: 100%;
 }
-
 /* Navigation */
 
 #page {
@@ -265,10 +264,6 @@ body {
     }
   }
 
-  
-  
-/* Whole page */
-
 /* Landing */
 
 #landing-img {
@@ -375,6 +370,14 @@ body {
     position: relative;
     top: 12em;
     right: 0em;
+}
+
+.index-link {
+  color: rgb(106, 151, 202);
+}
+
+.index-link:hover {
+  text-decoration: line-through;
 }
 
 /* About */
@@ -513,6 +516,14 @@ li {
     color: black;
 }
 
+.tech-link {
+  color: rgb(179, 34, 34);
+}
+
+.tech-link:hover {
+  text-decoration: line-through;
+}
+
 /* works */
 
 .navi {
@@ -596,3 +607,11 @@ li {
   color: rgb(211, 39, 39);
 }
 
+.contact-link {
+  margin-left: 5px;
+  color: rgb(211, 39, 39);
+}
+
+.contact-form {
+  margin-bottom: 5em;
+}
