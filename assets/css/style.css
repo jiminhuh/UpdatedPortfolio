@@ -103,6 +103,32 @@ body {
 }
 
 
+@-webkit-keyframes shadow-pop-tr {
+    0% {
+      box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+      -webkit-transform: translateX(-8px) translateY(8px);
+              transform: translateX(-8px) translateY(8px);
+    }
+  }
+  @keyframes shadow-pop-tr {
+    0% {
+      box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+      -webkit-transform: translateX(-8px) translateY(8px);
+              transform: translateX(-8px) translateY(8px);
+    }
+  }
+  
+
 @-webkit-keyframes tracking-in-expand {
     0% {
       letter-spacing: -0.5em;
@@ -463,4 +489,100 @@ li {
 
 #still-curious {
     text-align: center;
+    margin-top: 4em;
 }
+
+#still-curious2 {
+    text-align: center;
+}
+
+#instagram-logo {
+    width: 50px;
+    position: relative;
+    top: 0.5em;
+}
+
+#personal-icon {
+    text-align: center;
+}
+
+#github {
+    color: black;
+}
+
+/* works */
+
+.navi {
+    color: white;
+}
+
+
+
+#OTPYG-gif {
+    width: 100%;
+    padding-top: 7em;
+}
+
+#OTPYG-logo {
+    width: 50%;
+}
+
+.project1-info {
+    text-align: center;
+}
+
+.project1-image,
+.project2-image {
+    text-align: center;
+}
+
+.info {
+    font-size: 1.4em;
+}
+
+.technologies {
+    font-size: 1.2em;
+    text-decoration: underline;
+    padding-top: 2em;
+}
+
+.tech-btn {
+    background-color: rgb(81, 81, 230);
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.tech-btn:hover {
+    background-color: rgb(211, 116, 28);
+    -webkit-animation: shadow-pop-tr 0.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tr 0.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+
+}
+
+.project2 {
+    border-top: 0.3px solid black;
+}
+
+#blowfish-gif {
+    width: 100%;
+    margin-top: 5em;
+}
+
+#blowfish-cartoon-gif {
+    width: 25%;
+    margin-top: 2em;
+}
+
+.project2-info {
+    text-align: center;
+}
+
+#website-link,
+#github-link {
+    color: black;
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 1.1em;
+}
+
