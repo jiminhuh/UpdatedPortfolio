@@ -11,12 +11,15 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     font-family: Questrial, sans-serif;
 }
 
 .container {
     margin: 0 auto;
+    background-color: #f1f1f1;
+    padding: 0 2em;
+    height: 100%;
 }
 
 /* Navigation */
@@ -551,6 +554,7 @@ li {
     padding: 5px;
     border-radius: 3px;
     color: white;
+    font-size: 0.7em;
 }
 
 .tech-btn:hover {
@@ -584,5 +588,11 @@ li {
     margin-top: 2em;
     padding: 1em;
     font-size: 1.1em;
+}
+
+/*Contact*/
+
+.keywords {
+  color: rgb(211, 39, 39);
 }
 
