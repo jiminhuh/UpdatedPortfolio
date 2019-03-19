@@ -615,3 +615,35 @@ li {
 .contact-form {
   margin-bottom: 5em;
 }
+
+@media screen and (max-width: 700px) {
+  #code-file, 
+  #database,
+  #google,
+  #instagram,
+  #html,
+  #css,
+  #javascript,
+  #react,
+  #node,
+  #server {
+    display: none;
+  }
+
+  #name {
+    position: absolute;
+    left: 5px;
+  }
+
+  .project1,
+  .project2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row .col.s6 {
+    width: 100%;
+  }
+
+
+}
