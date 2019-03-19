@@ -630,11 +630,6 @@ li {
     display: none;
   }
 
-  #name {
-    position: absolute;
-    left: 5px;
-  }
-
   .project1,
   .project2 {
     display: flex;
