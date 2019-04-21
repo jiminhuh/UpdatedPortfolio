@@ -575,8 +575,13 @@ li {
 
 }
 
-.project2 {
+.project2,
+.project3 {
     border-top: 0.3px solid black;
+}
+
+.project3 {
+  padding-top: 3rem;
 }
 
 #blowfish-gif {
@@ -587,6 +592,14 @@ li {
 #blowfish-cartoon-gif {
     width: 25%;
     margin-top: 2em;
+}
+
+#bank-img {
+  width: 100%;
+}
+
+#bank-logo {
+  width: 100%;
 }
 
 .project2-info {
